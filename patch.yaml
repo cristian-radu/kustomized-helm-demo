@@ -6,8 +6,5 @@ spec:
   template:
     spec:
       containers:
-        - name: istio-proxy
-          image: docker.io/istio/proxyv2
-          args:
-            - proxy
-            - sidecar
+        - name: nginx
+          image: nginx
